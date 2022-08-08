@@ -1,0 +1,219 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* Header */
+header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #94a3b8;
+    border-bottom: 5px solid #64748b;
+}
+
+.header-text {
+    font-size: 4rem;
+}
+
+/* End of Header */
+
+/* Sidebar */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #64748b;
+    flex: 0 0 auto;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word {
+    font-size: 5rem;
+    margin: 50px;
+}
+
+.textfield {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+
+.btn,
+.addBtn {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.add-text {
+    font-size: 5rem;
+    margin: 50px;
+}
+
+.listvoc {
+    align-self: flex-start;
+    display: block;
+    padding-left: 20px;
+}
+
+.listvoc li {
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.deleteBtn {
+    background-color: red;
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
