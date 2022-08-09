@@ -26,3 +26,9 @@ function compare() {
 }
 
 compareBtn.addEventListener("click", compare)
+
+text.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        compare();
+    }
+});
